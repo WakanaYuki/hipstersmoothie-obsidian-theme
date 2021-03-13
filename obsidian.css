@@ -50,6 +50,13 @@
   --gray-900: #2e2c2f;
   --gray-1000: #181517;
   --gray-1100: #0c0c0c;
+  
+  --h1: #845ec2;
+  --h2: #d65db1; 
+  --h3: #2c73d2;
+  --h4: #f3c5ff;
+  --h5: #00c9a7;
+  --h6: #4ffbdf;
 
   --background-primary: var(--gray-1100);
   --background-primary-alt: var(--gray-1000);
@@ -317,4 +324,68 @@ body * {
 
 .modal button:not(.mod-cta):not(.mod-warning) {
     background-color: var(--gray-800);
+}
+
+.cm-header-1
+{
+  color: var(--h1);
+}
+
+.cm-header-2
+{
+  color: var(--h2);
+}
+
+.cm-header-3
+{
+  color: var(--h3);
+}
+
+.cm-header-4
+{
+  color: var(--h4);
+}
+
+.cm-header-5
+{
+  color: var(--h5);
+}
+
+.cm-header-6
+{
+  color: var(--h6);
+}
+
+.cm-em {
+  color: #9b5786;
+}
+
+.markdown-preview-view h1
+{
+  color: var(--h1);
+}
+
+.markdown-preview-view h2
+{
+  color: var(--h2);
+}
+
+.markdown-preview-view h3
+{
+  color: var(--h3);
+}
+
+.markdown-preview-view h4
+{
+  color: var(--h4);
+}
+
+.markdown-preview-view h5
+{
+  color: var(--h5);
+}
+
+.markdown-preview-view h6
+{
+  color: var(--h6);
 }
